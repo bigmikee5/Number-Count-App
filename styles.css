@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(12, 12, 34);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent {
+  background: grey;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+h3 {
+  margin-bottom: 10px;
+}
+span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.buttons {
+  margin: 10px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.decrease {
+  background: #f03e3e;
+}
+.increase {
+  background: #37b24d;
+}
